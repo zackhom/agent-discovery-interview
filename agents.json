@@ -1,0 +1,168 @@
+[
+  {
+    "id": "460a7b37-9304-407f-97d0-b7fb56ca651f",
+    "agent_name": "Ayush agent",
+    "label": "Ayush agent",
+    "description": "A personal agent",
+    "version": "1.0",
+    "documentationUrl": "",
+    "jurisdiction": "USA",
+    "provider": {
+      "name": "NANDA",
+      "url": "https://projectnanda.org",
+      "did": "",
+      "_id": "691787f6aa6d6aff3d800c2d"
+    },
+    "endpoints": {
+      "adaptive_resolver": {
+        "url": "",
+        "policies": []
+      },
+      "static": [
+        "https://chat2.nanda-registry.com:8830"
+      ],
+      "_id": "691787f6aa6d6aff3d800c2e"
+    },
+    "capabilities": {
+      "modalities": [
+        "text"
+      ],
+      "streaming": false,
+      "batch": false,
+      "authentication": {
+        "methods": [],
+        "requiredScopes": [],
+        "_id": "691787f6aa6d6aff3d800c2f"
+      },
+      "_id": "691787f6aa6d6aff3d800c30"
+    },
+    "skills": [
+      {
+        "_id": "691787f6aa6d6aff3d800c31",
+        "id": "chat",
+        "description": "personal AI agent and chatbot",
+        "inputModes": [
+          "text"
+        ],
+        "outputModes": [
+          "text"
+        ],
+        "supportedLanguages": [
+          "en"
+        ]
+      }
+    ],
+    "evaluations": {
+      "performanceScore": 0,
+      "availability90d": "",
+      "lastAudited": "",
+      "auditTrail": "",
+      "auditorID": "",
+      "_id": "691787f6aa6d6aff3d800c32"
+    },
+    "telemetry": {
+      "enabled": false,
+      "retention": "7d",
+      "sampling": 0.1,
+      "metrics": {
+        "latency_p95_ms": 0,
+        "throughput_rps": 0,
+        "error_rate": 0,
+        "availability": ""
+      },
+      "_id": "691787f6aa6d6aff3d800c33"
+    },
+    "certification": {
+      "level": "verified",
+      "issuer": "NANDA",
+      "issuanceDate": "2025-06-26",
+      "expirationDate": "2025-07-26",
+      "_id": "691787f6aa6d6aff3d800c34"
+    },
+    "created_at": "2025-06-26T05:29:20.497Z",
+    "updated_at": "2025-06-28T18:44:07.075Z"
+  },
+  {
+    "id": "c520b08c-f63d-4746-bd91-7bd2caa92558",
+    "agent_name": "ramesh agent",
+    "label": "ramesh agent",
+    "description": "A personal agent",
+    "version": "1.0",
+    "documentationUrl": "",
+    "jurisdiction": "USA",
+    "provider": {
+      "name": "NANDA",
+      "url": "https://projectnanda.org",
+      "did": "",
+      "_id": "6917897daa6d6aff3d800c36"
+    },
+    "endpoints": {
+      "adaptive_resolver": {
+        "url": "",
+        "policies": []
+      },
+      "static": [
+        "https://chat2.nanda-registry.com:7672"
+      ],
+      "_id": "6917897daa6d6aff3d800c37"
+    },
+    "capabilities": {
+      "modalities": [
+        "text"
+      ],
+      "streaming": false,
+      "batch": false,
+      "authentication": {
+        "methods": [],
+        "requiredScopes": [],
+        "_id": "6917897daa6d6aff3d800c38"
+      },
+      "_id": "6917897daa6d6aff3d800c39"
+    },
+    "skills": [
+      {
+        "_id": "6917897daa6d6aff3d800c3a",
+        "id": "chat",
+        "description": "personal AI agent and chatbot",
+        "inputModes": [
+          "text"
+        ],
+        "outputModes": [
+          "text"
+        ],
+        "supportedLanguages": [
+          "en"
+        ]
+      }
+    ],
+    "evaluations": {
+      "performanceScore": 0,
+      "availability90d": "",
+      "lastAudited": "",
+      "auditTrail": "",
+      "auditorID": "",
+      "_id": "6917897daa6d6aff3d800c3b"
+    },
+    "telemetry": {
+      "enabled": false,
+      "retention": "7d",
+      "sampling": 0.1,
+      "metrics": {
+        "latency_p95_ms": 0,
+        "throughput_rps": 0,
+        "error_rate": 0,
+        "availability": ""
+      },
+      "_id": "6917897daa6d6aff3d800c3c"
+    },
+    "certification": {
+      "level": "verified",
+      "issuer": "NANDA",
+      "issuanceDate": "2025-06-26",
+      "expirationDate": "2025-07-26",
+      "_id": "6917897daa6d6aff3d800c3d"
+    },
+    "created_at": "2025-06-26T05:29:20.536Z",
+    "updated_at": "2025-06-28T18:44:07.102Z"
+  }
+]

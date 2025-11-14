@@ -1,0 +1,34 @@
+[
+    {
+      "id": "local-telemetry-agent",
+      "description": "Local telemetry and performance optimization specialist",
+      "version": "1.0",
+      "jurisdiction": "Local",
+      "endpoints": {
+        "adaptive_resolver": {
+          "url": "",
+          "policies": []
+        },
+       "static": [
+          "http://127.0.0.1:8000/agent/telemetry"
+        ]
+      },
+      "skills": []
+    },
+    {
+      "id": "local-math-agent",
+      "description": "Local math tutor and problem-solving agent",
+      "version": "1.0",
+      "jurisdiction": "Local",
+      "endpoints": {
+        "adaptive_resolver": {
+          "url": "",
+          "policies": []
+        },
+        "static": [
+          "http://127.0.0.1:8000/agent/math"
+        ]
+      },
+      "skills": []
+    }
+]
